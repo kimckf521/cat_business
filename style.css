@@ -165,10 +165,6 @@ header .logo h1 {
 }
 
 /* Hero section */
-section.hero{
-  padding: 0;
-}
-
 .hero {
   position: relative;
   background: none; /* Remove the background image from the hero section */
@@ -176,6 +172,8 @@ section.hero{
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 0 40px 0; /* Remove all padding */
+  margin: 0; /* Ensure no unwanted margins */
 }
 
 .hero-content {
@@ -236,6 +234,7 @@ section {
   padding: 40px 20px;
   text-align: center;
 }
+
 
 /* Service cards */
 .service-cards {
